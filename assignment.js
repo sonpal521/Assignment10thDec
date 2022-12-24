@@ -1,13 +1,14 @@
+// Given an array having 0,1 as input. We need to write a function that sorts the array in 
+//ascending order without using inbuilt sort function
+// Input Array -> [0,1,1,0,1,0,0,1]
+// Output -> [0,0,0,0,1,1,1,1]
+
+
 function swap(arr, i, j) {
     let temp = arr[i];
     arr[i] = arr[j];
     arr[j] = temp;
 }
-
-// Given an array having 0,1 as input. We need to write a function that sorts the array in 
-//ascending order without using inbuilt sort function
-// Input Array -> [0,1,1,0,1,0,0,1]
-// Output -> [0,0,0,0,1,1,1,1]
 
 function separate(arr) {
     let i = 0;
